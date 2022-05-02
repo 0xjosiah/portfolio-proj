@@ -21,10 +21,11 @@
         </button>
         <nav class="nav">
             <ul class="nav__list">
-                <li class="nav__item"><a href="#home">Home</a></li>
-                <li class="nav__item"><a href="#services">My Services</a></li>
-                <li class="nav__item"><a href="#me">About Me</a></li>
-                <li class="nav__item"><a href="#work">My Work</a></li>
+                <li class="nav__item"><a class="nav__link" href="#home">Home</a></li>
+                <li class="nav__item"><a class="nav__link" href="#services">My Services</a></li>
+                <li class="nav__item"><a class="nav__link" href="#me">About Me</a></li>
+                <li class="nav__item"><a class="nav__link" href="#work">My Work</a></li>
+                <li class="nav__item"><a class="nav__link" href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -62,75 +63,91 @@
         <h2 class="section__title section__title--about">Who I am</h2>
         <p class="section__subtitle section__subtitle--about">Developer</p>
         <div class="about-me__body">
-            <p>shit about me</p>
-            <p>shit about me</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
-        <img src="img/dev-jane-02.jpg" alt="Jane leaning against a bus" srcset="">
+        <img src="img/dev-jane-02.jpg" alt="Jane leaning against a bus" srcset="" class="about-me__img">
     </section>
 
     <section class="my-work" id="work">
-        <h2 class="section__title">My Work</h2>
-        <p class="section__subtitle"></p>
+        <h2 class="section__title--work">My Work</h2>
+        <p class="section__subtitle--work">A selection of my range of work</p>
         <div class="portfolio">
             <!-- Portfolio item 01 -->
-            <a href="#" class="portfolio__item">
+            <a href="../portfolio-item.html" class="portfolio__item">
                 <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
             </a>
             
             <!-- Portfolio item 02 -->
-            <a href="#" class="portfolio__item">
+            <a href="../portfolio-item.html" class="portfolio__item">
                 <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
             </a>
             
             <!-- Portfolio item 03 -->
-            <a href="#" class="portfolio__item">
+            <a href="../portfolio-item.html" class="portfolio__item">
                 <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
             </a>
             
             <!-- Portfolio item 04 -->
-            <a href="#" class="portfolio__item">
+            <a href="../portfolio-item.html" class="portfolio__item">
                 <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
             </a>
             
             <!-- Portfolio item 05 -->
-            <a href="#" class="portfolio__item">
+            <a href="../portfolio-item.html" class="portfolio__item">
                 <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
             </a>
             
             <!-- Portfolio item 06 -->
-            <a href="#" class="portfolio__item">
+            <a href="../portfolio-item.html" class="portfolio__item">
                 <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
             </a>
             
             <!-- Portfolio item 07 -->
-            <a href="#" class="portfolio__item">
+            <a href="../portfolio-item.html" class="portfolio__item">
                 <img src="img/portfolio-07.jpg" alt="" class="portfolio__img">
             </a>
             
             <!-- Portfolio item 08 -->
-            <a href="#" class="portfolio__item">
+            <a href="../portfolio-item.html" class="portfolio__item">
                 <img src="img/portfolio-08.jpg" alt="" class="portfolio__img">
             </a>
             
             <!-- Portfolio item 09 -->
-            <a href="#" class="portfolio__item">
+            <a href="../portfolio-item.html" class="portfolio__item">
                 <img src="img/portfolio-09.jpg" alt="" class="portfolio__img">
             </a>
             
             <!-- Portfolio item 0 0-->
-            <a href="#" class="portfolio__item">
+            <a href="../portfolio-item.html" class="portfolio__item">
                 <img src="img/portfolio-10.jpg" alt="" class="portfolio__img">
             </a>
         </div>
     </section>
 
-    <footer>
+    <footer class="footer" id="contact">
         <a href="mailto:hello@josiahwebb.com" class="footer__link">hello@josiahwebb.com</a>
         <ul class="social-list">
-            <li class="social-list__item"><a href="" class="social-list__link"></a></li>
-            <li class="social-list__item"><a href="" class="social-list__link"></a></li>
-            <li class="social-list__item"><a href="" class="social-list__link"></a></li>
-            <li class="social-list__item"><a href="" class="social-list__link"></a></li>
+            <li class="social-list__item">
+                <a href="" class="social-list__link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="" class="social-list__link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="" class="social-list__link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="" class="social-list__link">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
         </ul>
     </footer>
 </body>

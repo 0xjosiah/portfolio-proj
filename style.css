@@ -105,6 +105,14 @@ h1 { font-size: var(--fs-h1) }
 h2 { font-size: var(--fs-h2) }
 h3 { font-size: var(--fs-h3) }
 
+h4 {
+    font-family: var(--ff-secondary);
+    font-weight: 400;
+    color: var(--clr-dark);
+    padding: 0;
+    margin: 0;
+}
+
 .section__title {
     margin-bottom: .25em;
 }
@@ -140,6 +148,10 @@ header {
 
 .logo {
     max-width: 100px;
+}
+
+.logo a {
+    text-decoration: none;
 }
 
 .nav {
